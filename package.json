@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build": "expo export --platform web",
-    "vercel-build": "expo export --platform web && mv dist public"
+    "vercel-build": "rm -rf public && expo export --platform web && mv dist public"
   },
   "dependencies": {
     "expo": "~50.0.0",
