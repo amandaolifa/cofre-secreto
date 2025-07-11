@@ -26,6 +26,7 @@ export default function App() {
       setMensagem('Erro ao conectar com o servidor.');
     }
   };
+  
 
   const renderPicker = (index) => (
     <Picker
