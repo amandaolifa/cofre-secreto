@@ -12,7 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-SENHA_SECRETA = [3, 2, 5, 8]
+SENHA_SECRETA = [3, 2, 5, 9]
 
 @app.post("/api/verificar")
 async def verificar_senha(request: Request):
