@@ -14,7 +14,7 @@ export default function App() {
 
   const verificarSenha = async () => {
     try {
-      const response = await fetch('/api/verificar', {
+      const response = await fetch('https://cofre-secreto.vercel.app/api/verificar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ num1: nums[0], num2: nums[1], num3: nums[2], num4: nums[3] }),
