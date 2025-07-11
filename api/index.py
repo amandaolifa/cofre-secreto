@@ -6,7 +6,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cofre-secreto-323os4qpu-amandas-projects-a2a2ba13.vercel.app"],
+    allow_origins=["https://cofre-secreto-323os4qpu-amandas-projects-a2a2ba13.vercel.app", "https://cofre-secreto-<...>.vercel.app", "https://cofre-secreto.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
